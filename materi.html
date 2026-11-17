@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Materi | Museum Perjuangan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="nav"></header>
+
+<div class="hero" style="padding:50px 0">
+  <div class="wrap">
+    <span class="tag">Ruang Materi</span>
+    <h1 style="font-size:2.6rem">Materi Perjuangan</h1>
+    <p>Pelajari pertempuran fisik, perjuangan diplomasi, tokoh, istilah penting, hari peringatan, dan tabel ringkas perjuangan fisik 1945–1949.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="tabs">
+      <button class="on" data-t="p1">⚔️ Pertempuran Fisik</button>
+      <button data-t="p6">🕊️ Perjuangan Diplomasi</button>
+      <button data-t="p2">👤 Tokoh</button>
+      <button data-t="p3">📚 Istilah</button>
+      <button data-t="p4">📅 Peringatan</button>
+      <button data-t="p5">📊 Tabel Ringkas</button>
+    </div>
+    <div class="pane on" id="p1"><div class="kind fz"><b>⚔️ Pertempuran Fisik</b>Mempertahankan kemerdekaan melalui perlawanan bersenjata melawan Belanda dan Sekutu. Ketuk kartu untuk melihat Apa, Siapa, Kapan, Di mana, Mengapa, Bagaimana.</div><div class="tl" id="tl"></div></div>
+    <div class="pane" id="p6"><div class="kind dp"><b>🕊️ Perjuangan Diplomasi</b>Upaya mencapai, mempertahankan, atau memperjuangkan kedaulatan melalui perundingan, dialog, dan perjanjian damai alih-alih pertempuran bersenjata.</div><div class="tl" id="td"></div><div class="kind dp" style="margin-top:18px"><b>Kesimpulan</b>Perjuangan diplomasi adalah perjuangan melalui perundingan dan perjanjian untuk mempertahankan kemerdekaan serta mendapatkan pengakuan kedaulatan dari Belanda: Hooge-Veluwe, Linggarjati, Renville, Roem–Royen, dan KMB.</div></div>
+    <div class="pane" id="p2"><p class="note">Tokoh-tokoh yang terlibat dalam peristiwa perjuangan fisik.</p><div class="grid" id="tk"></div></div>
+    <div class="pane" id="p3"><p class="note">Istilah penting yang sering muncul pada materi perjuangan fisik.</p><div class="grid" id="is"></div></div>
+    <div class="pane" id="p4"><p class="note">Materi tambahan: hari peringatan yang berkaitan dengan peristiwa perjuangan fisik.</p><div class="grid" id="pm"></div></div>
+    <div class="pane" id="p5"><div class="ov" id="tb"></div></div>
+  </div>
+</section>
+
+<footer id="ft"></footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="materi.js"></script>
+</body>
+</html>

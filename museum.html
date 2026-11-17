@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Museum 3D | Museum Perjuangan</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="museum.css">
+</head>
+<body class="mus">
+<header id="nav"></header>
+<main id="stage">
+  <div id="zoom"><div id="pano"><div class="wall"></div><div class="floor"></div><div id="items"></div></div></div>
+  <div id="hud"><div id="rt"></div></div>
+  <div id="cnt"></div>
+  <div id="zc"><button id="zi" aria-label="Perbesar">＋</button><button id="zo" aria-label="Perkecil">－</button></div>
+  <button class="ar l" id="pl" aria-label="Geser kiri">‹</button>
+  <button class="ar r" id="pr" aria-label="Geser kanan">›</button>
+  <div id="hint">↔ Geser layar · scroll / ＋－ untuk maju-mundur · klik pintu & koleksi · cari ⭐ tersembunyi · cari ⭐ tersembunyi</div>
+  <div id="ctl"><button id="back">⬇ Mundur</button><div id="dots"></div><button id="fwd">Maju ⬆</button></div>
+  <div id="modal"></div>
+  <div id="intro"><div class="mc"><div class="mi">🏛️</div><h2>Museum Virtual Perjuangan Fisik</h2><p>Jelajahi 14 ruang museum, tiap ruang punya suasana berbeda. Geser layar kiri-kanan untuk melihat sekeliling, klik pintu untuk pindah ruang, dan kumpulkan semua koleksi!</p><button class="btn" id="go">Masuk Museum</button></div></div>
+</main>
+<footer id="ft"></footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="museum.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Game | Museum Perjuangan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="nav"></header>
+
+<div class="hero" style="padding:50px 0">
+  <div class="wrap">
+    <span class="tag">Ruang Game</span>
+    <h1 style="font-size:2.6rem">Uji Pengetahuanmu</h1>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="tabs">
+      <button class="on" data-t="q">❓ Kuis</button>
+      <button data-t="b">⚖️ Benar atau Salah</button>
+      <button data-t="s">🕵️ Siapa Aku?</button>
+      <button data-t="d">🕊️ Tebak Perundingan</button>
+      <button data-t="k">🃏 Kartu Memori</button>
+    </div>
+    <div class="card">
+      <div class="pane on" id="q"></div>
+      <div class="pane" id="b"></div>
+      <div class="pane" id="s"></div>
+      <div class="pane" id="d"></div>
+      <div class="pane" id="k"></div>
+    </div>
+  </div>
+</section>
+
+<footer id="ft"></footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
